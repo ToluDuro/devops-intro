@@ -1,6 +1,6 @@
 function add(a: string, b: number): number {
-    // This will fail because we're trying to add a string and number without proper conversion
-    return a + b;
+    // Convert string to number using parseInt before addition
+    return parseInt(a) + b;
 }
 
 // Missing type annotation for parameter
@@ -8,8 +8,8 @@ function multiply(x, y) {
     return x * y;
 }
 
-// Variable used before declaration
+// Variable declaration before usage
+const undefinedVariable = "oops";
 console.log(undefinedVariable);
-let undefinedVariable = "oops";
 
 export { add, multiply };
