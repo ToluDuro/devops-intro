@@ -1,6 +1,6 @@
 # DevOps TypeScript + Lint CI Demo
 
-![CI Status](https://github.com/{ToluDuro}/{DEVOPS-INTRO-1}/actions/workflows/ci.yml/badge.svg)
+![CI Status](https://github.com/ToluDuro/DEVOPS-INTRO-1/actions/workflows/ci.yml/badge.svg)
 
 This repo demonstrates a CI setup using GitHub Actions for linting and building TypeScript code.
 
